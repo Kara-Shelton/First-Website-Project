@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Portal</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- JQuery/Plugin Source Code Tags -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- AJAX/JQ Source Code-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    
+    <!-- My Script  -->
+    <script src="crossFit.js"></script>
+
+  </head>
+
+<body>
+<header> 
+    <a href="index.html" class="logo">CrossFit Weddington</a>
+    <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="WOD.html">WOD</a></li>
+        <li><a href="memberPortal.html" class="active">MemberPortal</a></li>
+        <li><a href="membershipOptions.html">MembershipPackages</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</header>
+
+
+<div id="section">
+    <!-- https://www.w3schools.com/howto/howto_css_login_form.asp -->
+    <!-- Create a Member Login Page using JQ and only load in Java Script. Do not include here -->
+   
+    <form id="memberLogin" action="#">
+        
+      <div class="imgcontainer">
+        <img src="vintage-lift.png" alt="Avatar" class="avatar">
+      </div>
+      <!-- end image conatiner div -->
+
+          <label id="username">Username</label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label id="psw">Password</label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+        
+          <button id="loginPortal" class="b1" type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          <br>
+      
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw"> <a href="#">Forgot password?</a></span>
+</form> 
+<!-- end of form -->
+    </div>
+<!-- end of section div -->
+
+<footer> 
+  <button id="bf1" onclick="document.location= 'https://www.instagram.com/accounts/login/?next=%2Fcrossfitweddington%2F'">Instagram</button>
+  <button id="bf2" onclick="document.location= 'https://www.facebook.com/crossfitweddingtonnc'">Facebook</button> <br>
+  &copy; CrossFit Weddington 2022 <br>
+    <a href="https://validator.w3.org/">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a></footer>
+  </body>
+</html>

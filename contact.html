@@ -1,0 +1,99 @@
+<!-- Stylesheet contactPage.css -->
+<!-- https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+<!-- This contact form serves as a placeholder for a more specific form I will use -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- script files  -->
+    <!-- JQuery/Plugin Source Code Tags -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- AJAX/JQ added 11/12/22 from youtube tutorial-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <!-- Validator Plugin -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <!-- My Jscript -->
+    <script src="crossFit.js"></script>  
+  
+  </head>
+
+
+<body>
+  <header>
+    <a href="index.html" class="logo">CrossFit Weddington</a>
+    <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="WOD.html">WOD</a></li>
+        <li><a href="memberPortal.html">MemberPortal</a></li>
+        <li><a href="membershipOptions.html" >MembershipPackages</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+</header>
+
+
+  <!-- open container div -->
+  <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+      
+        </div>
+        <!-- close text-align div -->
+
+      <!-- open row div -->
+  <div class="row">
+
+      <!-- open column div -->
+        <div class="column">
+            <img src="contact-us.jpg" alt="contact-pic" id="contact-image">
+        </div>
+        <!-- close column div1 -->
+
+      <!-- open column div 2 -->
+          <div class="column">
+         <!-- create form for user input -->
+            <form id="contactForm" action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" required>
+            <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Other">Other</option>
+              </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" required></textarea>
+            <input type="submit" value="Submit" id="submit">
+          </form>
+          <!-- Close Form -->
+        </div>
+        <!-- close column 2 div -->
+      </div>
+<!-- close row div -->
+    </div> 
+    <!-- close container div -->
+
+   <!-- whitespace div -->
+   <div id="spaceMember" class="spaceDiv"></div>
+   
+  <footer> 
+    <button id="bf1" onclick="document.location= 'https://www.instagram.com/accounts/login/?next=%2Fcrossfitweddington%2F'">Instagram</button>
+    <button id="bf2" onclick="document.location= 'https://www.facebook.com/crossfitweddingtonnc'">Facebook</button> <br>
+    &copy; CrossFit Weddington 2022 <br>
+      <a href="https://validator.w3.org/">Validate HTML</a>
+      <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a> </footer>
+
+  </body>
+</html>

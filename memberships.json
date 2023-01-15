@@ -1,0 +1,37 @@
+{"memberships":[
+	{
+		"title": "Single Membership",
+        "text": "Inlcudes one full month of unlimited classes for one indvidual.",
+        "price": "$180.00"		
+	},
+
+    {
+		"title": "Family Membership",
+        "text": "Inlcudes one full month of unlimited classes for the member plus one family member.",
+        "price": "$250.00"		
+	},
+    
+    {
+		"title": "Student Membership",
+        "text": "Includes one full month of unlimited classes for one full-time student.",
+        "price": "$125.00"		
+	},
+    {
+		"title": "Single Membership",
+        "text": "Inlcudes one full month of unlimited classes for one indvidual.",
+        "price": "$135.00"		
+	},
+
+    {
+		"title": "Family Membership",
+        "text": "Inlcudes one full month of unlimited classes for the member plus one family member.",
+        "price": "$200.00"		
+	},
+    
+    {
+		"title": "Student Membership",
+        "text": "Includes one full month of unlimited classes for one full-time student.",
+        "price": "$140.00"		
+	}
+]}
+

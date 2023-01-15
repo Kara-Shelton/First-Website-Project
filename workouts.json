@@ -1,0 +1,96 @@
+{
+    "workouts": [
+      {
+        "id": "Monday",
+        "name": "Strict Fran",
+        "mode": "21-15-9 reps for time of",
+        "equipment": [
+          "barbell",
+          "pull-up bar"
+        ],
+        "exercises": [
+          "Thrusters",
+          "Strict pull-ups"
+        ],
+        "trainerTips": [
+          "If you are unable to complete 10 consecutive strict pull-ups, scale the movement to a kipping pull-up or ring row. Reduce the load on the barbell.",
+          "RX Weights: 95lbs/65lbs."
+        ]
+      },
+      {
+        "id": "Tuesday",
+        "name": "Dead Push-Ups",
+        "mode": "AMRAP 10",
+        "equipment": [
+          "barbell"
+        ],
+        "exercises": [
+          "15 deadlifts",
+          "15 hand-release push-ups"
+        ],
+        "trainerTips": [
+          "Deadlifts are meant to be light and fast",
+          "Try to aim for unbroken sets",
+          "RX Weights: 135lb/95lb"
+        ]
+      },
+      {
+        "id": "Wednesday",
+        "name": "Heavy DT",
+        "mode": "5 Rounds For Time",
+        "equipment": [
+          "barbell",
+          "rope"
+        ],
+        "exercises": [
+          "12 deadlifts",
+          "9 hang power cleans",
+          "6 push jerks"
+        ],
+
+        "trainerTips": [
+          "Aim for unbroken push jerks",
+          "The first three rounds might feel terrible, but stick to it",
+          "RX Weights: 205lb/145lb"
+        ]
+      },
+      {
+        "id": "Thursday",
+        "name": "Cindy",
+        "mode": "Complete as many rounds as possible in 20 minutes of:",
+        "equipment": [
+          "pull-up bar"          
+        ],
+        "exercises": [
+          "5 pull-ups",
+          "10 push-ups",
+          "15 squats"
+        ],
+        "trainerTips": [
+          "Aim for unbroken push jerks",
+          "The first three rounds might feel terrible, but stick to it",
+          "RX Weights: 205lb/145lb"
+        ]
+      },
+      {
+        "id": "Friday",
+        "name": "Ellen",
+        "mode": "3 Rounds For Time",
+        "equipment": [
+          "barbell",
+          "rope"
+        ],
+        "exercises": [
+          "20 Burpees",
+          "21 dumbell snatches",
+          "12 dumbell thrusters"
+        ],
+        "trainerTips": [
+          "Use a single dumbbell on the snatches and a pair for the thrusters.",
+          "The first three rounds might feel terrible, but stick to it",
+          "RX Weights: 50lb/35lb"
+        ]
+      }
+
+    ]
+  }

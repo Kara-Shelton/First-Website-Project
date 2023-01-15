@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOD Page</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+   <!-- script files  -->
+  <!-- JQuery/Plugin Source Code Tags -->
+   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- AJAX/JQ added  -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+   <!-- bypass favicon.io error -->
+   <link rel="icon" href="data:,">
+   
+</head>
+
+<body>
+    <header>
+        <!-- https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+        <a href="index.html" class="logo">CrossFit Weddington</a>
+        <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="WOD.html" class="active">WOD</a></li>
+            <li><a href="memberPortal.html">MemberPortal</a></li>
+            <li><a href="membershipOptions.html">Membership Options</a></li>
+            <li><a href="contact.html">Contact</a></li>
+       </ul>
+     
+    </header>
+    
+    <main>
+        <!-- Create Image Grid -->
+    <div id="imgsection" class="newsection">
+        
+            <div class="image-grid">
+                <img src="crossfit-rowing.jpg" alt="gym=photo1" id="gym1">
+                <img src="crossfit2.jpg" alt="gym-photo2"  id="gym2">
+                <img src="crossfit3.jpg" alt="gym-photo3" id="gym3">
+                <img src="crossfit4.jpg" alt="gym-photo4" id="gym4">
+            
+            </div>
+            <!-- end of image-grid -->
+    </div>
+    <!-- end of image section -->
+
+    <!-- The WOD section would be updated weekly by admin. 
+    The workouts are loaded via AJAX/JSON
+    -->
+    
+    <div id="WOD" class="div">
+   
+    <h1>Weekly WOD Schedule</h1>
+    <div id="clickDay" class="wodEx">
+        <button id="monday" class="clickMe">Monday WOD</button>
+        <button id="tuesday" class="clickMe" title="Tuesday">Tuesday WOD</button>
+        <button id="wednesday" class="clickMe" title="Wednesday">Wednesday WOD</button>
+        <button id="thursday" class="clickMe" title="Thursday">Thursday WOD</button>
+        <button id="friday" class="clickMe" title="Friday">Friday WOD</button>
+  <div id="wodExample"></div>
+  
+    </div>
+<!-- end of workout example -->
+  
+    </div>
+<!-- end of WOD div -->
+
+<!-- Learn More Button Div -->
+    <div id="learnMore" class="div">
+        <h2>Intro Class Information</h2>
+        <p>Each week, Monday - Saturday we have Introduction Classes for beginners at 0900. We require all new members attend this class, as it is an opportunity for you to meet our coaching staff and learn more about our gym. Since CrossFit is a high-intensity style of workout program, we always keep safety first. During the intro class, we will assess your mobility, strength, stamina, and so on. It will not be too invaise, but very casual.- we do not want to scare you away. We keep it light in the intro class, but we guarantee a solid workout and you will be feeling muscles you have not felt in years. If you are interested, take this opportunity to use the Calendar feature below to select your desired intro date. We are closed on Sunday, so don't pick a Sunday. Thank you for showing interest in our gym. We have a saying around here, "It is the start that stops most people." Make sure not to let the start stop you. Register for an intro class today.</p>
+
+    </div>
+
+    <!-- Open Calendar Div for DatePicker Style/Formatting -->
+    <div id="calendar" class="div5">
+             
+                    <h1>Select an Intro Class Date</h1>
+                    <h3>Intro Classes are Held at 9:00 am on the Date Specified</h3>
+                 
+                    <!-- This is to resere an Intro Class spot. Paperwork to be filled in person -->
+                    <div id="div1" class="div5">
+                        <p>Pick a Date <input type="text" id="datepicker" placeholder="Click Me to Select" ></p>
+                       <div>
+                        <button type="submit" class="calsubmit" id="submit-btn">Submit</button>
+                    </div>
+                    <!-- end button div -->
+                    </div>
+                    <!-- end pick date div -->
+    </div>
+   
+<!-- end of calendar widget div -->
+               
+
+  <!-- whitespace div -->
+  <div id="spaceMember" class="spaceDiv"></div>
+<!-- My Jscript -->
+
+</main>     
+    <footer> 
+            <button id="bf1" onclick="document.location= 'https://www.instagram.com/accounts/login/?next=%2Fcrossfitweddington%2F'">Instagram</button>
+            <button id="bf2" onclick="document.location= 'https://www.facebook.com/crossfitweddingtonnc'">Facebook</button> <br>
+            &copy; CrossFit Weddington 2022 <br>
+            <a href="https://validator.w3.org/">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+        </footer>
+        <script src="crossFit.js"></script>
+    </body>
+</html>
+

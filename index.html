@@ -1,0 +1,186 @@
+<!-- This basic website was created in a introductory website design course. It is a static site, which lacks complexity or security measures, such as 
+    form validation. The styling only truly works in browsers (best in Chrome). 
+    This site is not intended for mobile devices or small screens of any type. 
+    This website project was created with permission of the business owner of CrossFit Weddington- All copyright laws apply. 
+    To view the final product, visit: https://webpages.charlotte.edu/kshelt16/Exercise/1-Website-Product/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossfit Website - Index Home Page</title>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+      
+    <!-- JQuery/Plugin Source Code Tags -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- AJAX/JQ added 11/12/22 from youtube tutorial-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+   
+      <!-- My Jscript -->
+   <script src="crossFit.js"></script>
+
+</head>
+
+<body>
+    <header>
+        
+        <a href="index.html" class="logo">CrossFit Weddington</a>
+        <ul> 
+            <li><a href="#" class="active">Home </a></li>
+            <li><a href="WOD.html">WOD</a></li>
+            <li><a href="memberPortal.html">Member Portal</a></li>
+            <li><a href="membershipOptions.html">Membership Packages</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <div id="slogan" class="sec">
+        <h2 id="text"><span>It's the Start that Stops<br></span>Most People</h2>
+      
+        <!-- Main Image on Front Page -->
+        <img id="running" src="Runner-2.png" alt="image-runner">
+       
+    </div>
+    <!-- end of slogan div -->
+ 
+<!-- end space1 -->
+
+<!-- whitespace div -->
+<div class="spaceDiv"></div>
+
+    <div id="myDiv" class="div"> 
+        <!-- <img src="Leah-lift.png" alt="leahlift" class="photo"> -->
+        <h2 id="section-header" onMouseOver="changeColor();" onMouseOut="changeBack();">Welcome!</h2>
+        <p id="welcome">Welcome to CrossFit Weddington. Regardless of your fitness level, we have a place for you.</p>
+        <p id="first">
+            <br>Our facility is superior to many other gyms in the area. More than just a gym, this community center is 5,000 square feet, loaded with top-of-the-line fitness equipment, located on over 3 acres of beautiful land, right here in Weddington, NC.<br>
+            <br>The members at CrossFit Weddington are Computer Engineers, Doctors, Lawyers, Police Officers, Hairdressers Firefighters, Teachers, stay-at-home moms, Recovering Food Addicts, Recovering Drug Addicts, active Alcoholics, and everything in between - no judgement. We come together with a common goal to live well and be fit. Come join us for an <a href=WOD.html>Intro Class.</a><br>
+            </p>
+
+    </div>
+    <!-- end myDiv -->
+
+
+<!-- whitespace div -->
+<div class="spaceDiv"></div>
+
+    <!-- Write a Paragraph to explain what CrossFit is -->
+    
+    <div id="whatis" class="div2">
+        <h2>What is CrossFit?</h2>
+        <p>We are a community of diverse individuals with a similar goal in mind... work hard every day. We have high-level professional athletes, beginners, adults, children, adaptive division, and masters (age group). There truly is a place for everyone, and all are welcome. A typical day at a CrossFit gym would be back-to-back classes coached by some of the best coaches in the country. Physical ability is often measured by mobility, and that is a major focus at our gym. We are not as concerned with how much a person lifts, but whether or not they lift well. Health, happiness, and longevity are key goals at CrossFit Weddington. We teach you how to train your body for the long haul. Come in and be prepared to work. You may have to force yourself into these doors, but we are confident you will not regret it.</p>
+
+    </div>
+
+    <!-- Write a paragraph to describe the class structures and why it is important -->
+        
+<!-- whitespace div -->
+<div class="spaceDiv"></div>
+
+    <div id="classStructure" class="div2">
+        <h2>Class Structure</h2>
+        <p>CrossFit Weddington hosts a wide range of classes at multiple times throughout the day. We try to offer as many classes as possible, so you are sure to find at least one slot that works with your schedule. Each week, we have classes from 0500 - 1200 in the mornings. Then we have an early afternoon break, and start back up with our two afternoon classes at 4:30, 5:30. Then, we have our specialty classes at 6:30 pm. You can find more information about the specialty classes by highlighting over the day in the widget below. We hope you will make time to come and say hello. If you have been looking for a sign to change your life, consider this to be it. We look forward to having you join our family.</p>
+
+    </div>
+
+    <!-- Include information about public health and how CrossFit helps with overall health and wellness -->
+
+<!-- whitespace div -->
+<div class="spaceDiv"></div>
+
+<!-- Tabs Widget: First Widget in Requirements-->
+  
+    <div id="tabs">
+            <h2>Specialty Classes</h2>
+                <ul>
+                    <li><a href="#tabs-1">Monday</a></li>
+                    <li><a href="#tabs-2">Tuesday</a></li>
+                    <li><a href="#tabs-3">Wednesday</a></li>
+                    <li><a href="#tabs-4">Thursday</a></li>
+                    <li><a href="#tabs-5">Friday</a></li>
+                    <li><a href="#tabs-6">Saturday</a></li>
+                </ul>
+            <div id="tabs-1">
+                <p>Kid's Class 6:30 pm - All Skill Levels Welcome</p>
+                <p>Kids classes are designed to help your kid in every sport. Strength, balance, stability, and confidence are key components to a successful athlete. Our coaches will help your kid develop a foundation with a focus on longevity. Training is important, but training the right way is what truly matters.</p>
+            </div>
+            
+            <div id="tabs-2">
+                <p> Competition Training - 6:30 pm - Advanced Skill Levels Only</p>
+                <p> CrossFit HQ features all levels of competition. Everyhing from kids, teens, young adults, and age groups. If you have a comp approaching, you should attend this class. This is a more skilled class, so you are exprected to have a certain level of knowledge and skills to attend.</p>
+            </div>
+            
+            <div id="tabs-3">
+                <p>Row Conditioning 6:30 pm - All Skill Levels Welcome</p>
+                <p>Concept 2 Row, Ski, and Bike are foudnational components in CrossFit. These machines are easy on the joints, but offer an opportunity for a great workout. This Wendesday night row class focuses on conditioning and body weight movements. There may be a kettlebell, dumbbell, or medicine ball for added difficulty, but no barbells. All skill levels welcome.</p>
+            </div>
+            
+            <div id="tabs-4">
+                <p>Olympic Lifting - 6:30 pm - All Skill Levels Welcome</p>
+                <p>Olympic Lifting is a great way to build on the fundamental components of weight lifting. These barbell courses are designed to be slower paced, but technically focused. This is a great class for beginners, because it will help you learn the Snatch, Power Clean, Squat, Shoulder Press, and Deadlift. You will learn these things in regular classes, but these classes do not have a crossFit component of high-intensity conditioning.</p>
+            </div>
+            
+            <div id="tabs-5">
+                <p>Volleyball 6:00 pm</p>
+                <p>Fridays are for work and play. We have our normal class schedule throughout the day, but the last class is at 5:30. Bring your lawn chairs and coolers, invite family and friends. All are welcome to play on our beach volleyball court. This is a great way for new members to get to know everyone and have fun in the process. We are competitive, but it is all in good fun!</p>
+            </div>
+            
+            <div id="tabs-6">
+                <p>Intro Class for Beginners (no appointment necessary) - 9:00 am</p>
+                <p>Free intro class for anyone interested in joining the gym. If you would like to make an individual appointment for your intro class, click <a href="WOD.html"> here </a> and scroll to the "Select an Intro Class Date" calendar. The Intro fundamentals class helps beginners understand what a regular CrossFit workout will be like. The class ends with 20-30 minute workout.<br><br>Follwing the Intro class is our only scheduled class for the day at 10:00 am.</p>
+            </div>
+      </div>
+
+<!-- whitespace div -->
+<div class="spaceDiv"></div>
+
+
+      <div id="cory" class="div2">
+        <h2>Founder | Cory Worf</h2>
+        <img id="coryPic" src="CoryBW.png" alt="founderPic">
+        <p id="CoryBio">My background in massage therapy and functional fitness has helped me have the opportunity to work with several professional teams including the Volvo Cannondale Professional Mountain Bike Team, the Schwinn Toyota Professional Mountain Bike Team, the French National Team for Motocross Des Nations in Brazil, and several professional Motocross racers including: Jeremy McGrath (AMA Supercross Champion), Jimmy Button, Sebastian Tortelli (FIM World Champion), Ernesto Fonseca (East Coast 125 Champion), Buddy Antunez (Arenacross Champion), and Ryan Hughes. My interest in functional fitness, and peak performance led me to a natural progression to CrossFit in which I was certified in 2008. You can find me often on our gym floor training everyone from our beginning athletes to professional athletes, and everyone in between.
+
+            When I am not coaching, my favorite thing is spending time with my wife and three children. They are the most important things in my life.
+            </p>
+       
+      </div>
+      <!-- end of Cory Div -->
+     
+
+<!-- whitespace div -->
+<div class="spaceDiv"></div>
+
+<div id="coachingCrew" class="div2">
+<h2>Coaching Crew</h2>
+<p id="coachCrew">CrossFit Weddington has a team of top-tier coaches that believe living a healthy lifestyle is the best way to experience life. Each member of our team has years of experience with various levels of certifications. We truly have a passion to help others hit goals. Achieving goals you once thought were impossible builds more than just physical strength. We also have a Chiropractor and Physical Therapy Practice in-house. Our goals consist of pushing you to your limits, but in a safe and healthy environment. 
+    </p>
+
+</div>
+<!-- end of coaches Div -->
+
+
+<!-- Where Jquery Plugin Populates -->
+      <div id="coaches" class="div4">
+        <h2>Assistant Coaching Staff</h2>
+    </div>
+      <!-- end of coaching div -->
+
+<!-- whitespace div -->
+<div class="div2"></div>
+    <footer> 
+            <button id="bf1" onclick="document.location= 'https://www.instagram.com/accounts/login/?next=%2Fcrossfitweddington%2F'">Instagram</button>
+            <button id="bf2" onclick="document.location= 'https://www.facebook.com/crossfitweddingtonnc'">Facebook</button> <br>
+            &copy; CrossFit Weddington 2022 <br>
+            <a href="https://validator.w3.org/">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+        </footer>
+       
+    </body>
+</html>

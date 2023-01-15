@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Options</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- JQuery/Plugin Source Code Tags -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<!-- AJAX/JQ Source Code-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    
+    <!-- My Script  -->
+    <script src="crossFit.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">CrossFit Weddington</a>
+        <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="WOD.html">WOD</a></li>
+            <li><a href="memberPortal.html">MemberPortal</a></li>
+            <li><a href="membershipOptions.html" class="active">MembershipPackages</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+ 
+        <h2>Membership Package Options</h2>
+        <!-- open div for membership options to populate via ajax -->
+        <div id="membershipOptions" class="member"> </div>
+      <!-- end non membership package div -->
+
+<h2>Make a Selection</h2>
+<div id="packageSelect" class="member">
+
+    <!-- I tried to add Form validation to this section, but when I did, it messed up my AJAX formatting -->
+    <!-- I would plan on debugging that issue in the future -->
+      
+    <h3>Select a Package and Submit. Someone from our team will contact you soon.</h3>
+
+             <form id="membershipForm" action="#">
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="Enter First Name">
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter Last Name">
+                <label for="email">email</label>
+                <input type="text" id="email" name="email" placeholder="Enter Email">
+                
+                <label for="package">Civilian Packages</label>
+                <select id="package" name="civilianPackage">
+                    <option value="singleMem">Select One</option>
+                    <option value="singleMem">Single Member</option>
+                    <option value="famMem">Family Package</option>
+                    <option value="studentMem">Full-time Student</option>
+                    <option value="studentMil">Not Applicable/None</option>
+                  </select>
+                  <label for="package2">Military/First-Responder Packages</label>
+                  <select id="package2" name="militaryPackage">
+                    <option value="singleMem">Select One</option>
+                    <option value="singleMil">Single Member </option>
+                    <option value="famMil">Family Package</option>
+                    <option value="studentMil">Full-time Student</option>
+                    <option value="studentMil">Not Applicable/None</option>
+                  </select>
+                              
+                
+                <!-- <input type="checkbox" id="singlemem" name="select" value="yes">Single Membership<br>  -->
+                <input type="submit" id="memSubmit">
+            </form>
+            <!-- end form -->
+        </div>
+<!-- end selection div -->
+
+<!-- whitespace div -->
+<div id="spaceMember" class="spaceDiv"></div>
+
+    <footer> 
+        <button id="bf1" onclick="document.location= 'https://www.instagram.com/accounts/login/?next=%2Fcrossfitweddington%2F'">Instagram</button>
+        <button id="bf2" onclick="document.location= 'https://www.facebook.com/crossfitweddingtonnc'">Facebook</button> <br>
+        &copy; CrossFit Weddington 2022 <br>
+        <a href="https://validator.w3.org/">Validate HTML</a>
+        <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a></footer>
+    
+    </body>
+</html>
