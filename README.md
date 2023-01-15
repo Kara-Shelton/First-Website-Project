@@ -1,5 +1,5 @@
 # First-Website-Project
-CrossFit Weddington Demo Site (for desktop browser)
+CrossFit Weddington Demo Site (for desktop browser).
 This was a website build for an Intro to Web-based Applications and Design. This website was designed to be viewed on desktop browsers, preferably Chrome.
 The website was created with expressed permission from CrossFit Weddington owner, Cory Worf. Any use of this code without permission is considered a violation of
 Copyright laws.
